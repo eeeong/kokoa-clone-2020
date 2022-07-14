@@ -9,6 +9,7 @@
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 /* 모든 파일에 적용될 것 */
 body {
