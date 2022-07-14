@@ -1,12 +1,15 @@
+.user-component {
+    justify-content: space-between;
+}
 .user-component,
-.user-component__column /*니꼬는 first-child 했음*/{
+.user-component__column:first-child /* 2번째 열은 flex를 쓰지 않을 때도 존재함 */{
     display: flex;
     align-items: center;
 }
 .user-component__avartar {
     width: 70px;
     height: 70px;
-    border-radius: 20px;
+    border-radius: 25%;
     margin-right: 20px;
 }
 .user-component__title {
@@ -18,6 +21,9 @@
     font-size: 17px;
     color: rgba(0,0,0,0.5);
 }
+.user-component__column:last-child {
+    color: rgba(0, 0, 0, 0.5);;
+}
 .user-component__avartar--xl {
     width: 80px;
     height: 80px;
@@ -25,4 +31,7 @@
 .user-component__avartar--sm {
     width: 60px;
     height: 60px;
+}
+.user-component__title--not-bold {
+    font-weight: 400;
 }

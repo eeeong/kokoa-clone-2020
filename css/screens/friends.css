@@ -12,6 +12,8 @@
 #friends-display-link i {
     color: rgba(0, 0, 0, 0.3);
 }
+
+/* main 안의 friends-screen */
 .friends-screen {
     padding: 0px var(--horizontal-space);
 }
@@ -21,4 +23,13 @@
     justify-content: space-between;
     align-items: center;
     color: rgba(0, 0, 0, 0.5);
+    margin-top: 25px;
+    padding: 15px 0px;
+}
+.friends-screen__channel-header{
+    margin-bottom: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
