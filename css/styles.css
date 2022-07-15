@@ -18,3 +18,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     height: 1000vh;
 }
+
+/* chats.html의 css는 짧아서 일단 여기 보관 */
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}

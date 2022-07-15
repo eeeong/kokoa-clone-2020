@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Clone</title>
+    <title>Chats - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,74 +24,45 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-regular fa-comments fa-lg"></i></span>
         <span><i class="fa-solid fa-music fa-lg"></i></span>
         <span><i class="fa-solid fa-gear fa-lg"></i></span>
       </div>
     </header>
 
-    <!--내가 자의로 추가한 빈공간 status-bar,screen-header을 fixed해줘서 생긴 겹치는 공간을 직접 처리-->
+    <!--빈공간, friends화면이랑 같아서 그냥 그대로 냅둠-->
     <div class="friends-display__empty-space"></div>
-    <a id="friends-display-link">
-      <i class="fa-solid fa-circle-info"></i> Friends' Names Display
-      <i class="fa-solid fa-chevron-right fa-xs"></i
-    ></a>
 
-    <main class="friends-screen">
+    <main class="main-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
-            class="user-component__avartar user-component__avartar--xl"
+            class="user-component__avartar"
             src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTA1MDNfNTgg%2FMDAxNTU2ODkwNDQwMDUw.skuBS6mH_vfa1AO8PsxfzBozYphGxyMJ8QtB4ugtyg4g.LKYPllsw5qq3HwRjj0rbaRffRO_pvFIc11Ks3v-4IZ8g.JPEG.studygir%2FlTIYlTfYY_%252830%2529.jpg&type=sc960_832"
             alt=""
           />
           <div class="user-component__text">
             <h4 class="user-component__title">JJang gu</h4>
-            <!-- <h6 class="user-component__subtitle">BuriBuri~~ love pretty girls</h6> -->
+            <h6 class="user-component__subtitle">Huniya!! Chulsuya!! nolzAAAA~</h6>
           </div>
         </div>
         <div class="user-component__column"></div>
       </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <!--실질적으로 이 div는 없어도 될듯-->
-          <span>Channel</span>
-          <i class="fa-solid fa-chevron-up fa-xs"></i>
-        </div>
-      </div>
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            class="user-component__avartar user-component__avartar--sm"
-            src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTA1MDNfNTgg%2FMDAxNTU2ODkwNDQwMDUw.skuBS6mH_vfa1AO8PsxfzBozYphGxyMJ8QtB4ugtyg4g.LKYPllsw5qq3HwRjj0rbaRffRO_pvFIc11Ks3v-4IZ8g.JPEG.studygir%2FlTIYlTfYY_%252830%2529.jpg&type=sc960_832"
-            alt=""
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title user-component__title--not-bold">
-              Channel
-            </h4>
-          </div>
-        </div>
-        <div class="user-component__column">
-          <span>2 </span>
-          <i class="fa-solid fa-chevron-right fa-xs"></i>
-        </div>
-      </div>
-    </main>
 
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="fa-solid fa-user fa-2x"></i
+            ><i class="fa-regular fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification">1</span>
-            <i class="fa-regular fa-comment fa-2x"></i>
+            <i class="fa-solid fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
