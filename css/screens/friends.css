@@ -11,7 +11,7 @@
     margin-top: -15px; /*이걸 없애고 프렌즈만 빈공간을 15 줄여도 된다*/
 }
 #friends-display-link i {
-    color: rgba(0, 0, 0, 0.3);
+    color: var(--light-gray);
 }
 
 /* main 안의 friends-screen */
@@ -19,11 +19,11 @@
     padding: 0px var(--horizontal-space);
 }
 .friends-screen__channel {
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: var(--main-border);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: rgba(0, 0, 0, 0.5);
+    color: var(--deep-gray);
     /* margin-top: 25px; */
     padding: 15px 0px;
 }

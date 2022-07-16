@@ -13,8 +13,6 @@
     display: flex;
     justify-content: space-around;
     /* justify-content: space-between; */
-    padding-bottom: 15px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 .find-icons__icon {
     display: flex;
@@ -22,6 +20,21 @@
     align-items: center;
 }
 .find-icons__icon i {
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.recommended-friends {
+    margin: 25px 0px;
+    padding: 25px 0px;
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+    color: var(--deep-gray);
+}
+.recommended-friends h6 {
+    font-size: 15px;
+}
+.recommended-friends div /*니꼬는 span임*/{
+    margin: 100px 0px;
+    text-align: center;
 }
