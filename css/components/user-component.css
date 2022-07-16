@@ -1,5 +1,6 @@
 .user-component {
     justify-content: space-between;
+    margin-bottom: 25px;
 }
 .user-component,
 .user-component__column:first-child /* 2번째 열은 flex를 쓰지 않을 때도 존재함 */{
@@ -11,6 +12,7 @@
     height: 70px;
     border-radius: 25%;
     margin-right: 20px;
+    object-fit: cover;
 }
 .user-component__title {
     font-weight: 600;

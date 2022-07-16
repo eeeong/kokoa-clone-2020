@@ -1,6 +1,6 @@
 /* header */
 .welcom-header {
-    margin: 90px 0px;
+    margin: 116px 0px 90px; /*상태바의 높이 때문에 늘려줌*/
     text-align: center;
     display: flex;
     flex-direction: column;
