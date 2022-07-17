@@ -52,6 +52,20 @@
     color: var(--light-gray);
 }
 
+.open-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: var(--main-border);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+
+}
+/* .open-post__column:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
 .open-post__title {
     font-size: 18px;
     font-weight: 600;
@@ -84,4 +98,25 @@
 }
 .open-post__member-status {
     color: #FFAEDF;
+}
+
+.open-post__photo {
+    position: relative;
+}
+.open-post__photo img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.open-post__heart-count {
+    /* width: 40px; */
+    padding: 5px 7px;
+    font-size: 13px;
+    border-radius: 10px;
+    background-color: var(--deep-gray);
+    color: white;
+    position: absolute;
+    bottom: 7px;
+    right: 5px;
 }
