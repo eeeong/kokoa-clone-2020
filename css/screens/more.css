@@ -1,0 +1,23 @@
+/*  */
+.more-screen .user-component__subtitle i{
+    font-size: 15px;
+    color: white; /* 이 아이콘의 특성 잘 보고 컬러,배경컬러 설정하기 */
+    background-color: tomato;
+    border-radius: 50%;
+    border: 1.5px solid tomato;
+}
+
+/* more의 icon-row */
+.more-screen .icon-row {
+    margin-top: 40px; /* 위 물체의 마진과 margin collaps */
+}
+
+/* Suggestions */
+.more-suggestions {
+    margin-top: 50px;
+    border-top: var(--main-border);
+    padding-top: 40px;
+}
+.more-suggestions__title {
+    margin-bottom: 30px;
+}

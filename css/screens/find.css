@@ -8,22 +8,7 @@
     position: relative;
 }
 
-/* find icons */
-.find-icons {
-    display: flex;
-    justify-content: space-around;
-    /* justify-content: space-between; */
-}
-.find-icons__icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.find-icons__icon i {
-    font-size: 35px;
-    margin-bottom: 25px;
-}
-
+/* recommend friend */
 .recommended-friends {
     margin: 25px 0px;
     padding: 25px 0px;

@@ -8,17 +8,19 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/icon-row.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
+@import "screens/more.css";
 
 /*--------- 모든 파일에 적용될 것 ---------*/
 body {
     color: #2E363E;
     font-family: 'Open Sans', sans-serif;
-    height: 1000vh;
+    height: 200vh;
 }
 
 /*--------- chats.html의 css는 짧아서 일단 여기 보관 ---------*/
