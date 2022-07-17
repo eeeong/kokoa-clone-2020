@@ -29,12 +29,59 @@
     padding: 25px 0px;
     border-top: var(--main-border);
     border-bottom: var(--main-border);
-    color: var(--deep-gray);
 }
 .recommended-friends h6 {
     font-size: 15px;
+    color: var(--deep-gray);
 }
 .recommended-friends div /*니꼬는 span임*/{
     margin: 100px 0px;
     text-align: center;
+    color: var(--gray);
+}
+
+/* Open Chat */
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    font-size: 15px;
+    color: var(--deep-gray);
+}
+.open-chat__header span {
+    color: var(--light-gray);
+}
+
+.open-post__title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.open-post__hashtags {
+    text-transform: uppercase;
+    color: var(--gray);
+}
+.open-post__members {
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    color: var(--gray);
+}
+.open-post__members img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.open-post__member-count {
+    font-size: 15px;
+}
+.open-post__members .divider {
+    width: 1.5px;
+    height: 15px;
+    margin: 0px 5px;
+    background-color: var(--light-gray);
+}
+.open-post__member-status {
+    color: #FFAEDF;
 }
