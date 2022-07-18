@@ -9,3 +9,63 @@
 .main-chat {
     margin-top: 120px;
 }
+
+/* timestap */
+.chat__timestamp {
+    text-align: center;
+    margin: 30px;
+}
+.chat__timestamp span {
+    padding: 8px 15px;
+    font-size: 13px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* 대화창 */
+.message-friend {
+    display: flex;
+    margin-bottom: 15px;
+}
+.message-me {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+.friend-profile {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+}
+.friend-name {
+    display: block;
+    margin: 5px 0 8px;
+    font-size: 15px;
+    color: var(--deep-gray);
+}
+.message-content {
+    display: flex;
+    align-items: flex-end;
+}
+.message__bubble {
+    padding: 12px 13px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+.message__time {
+    margin: 0px 5px;
+    font-size: 13px;
+    color: var(--gray);
+}
+
+/* 색상 지정 */
+.message__bubble--friend {
+    background-color: white;
+    border-top-left-radius: 0px;
+}
+.message__bubble--me {
+    background-color: var(--yellow);
+    border-top-right-radius: 0px;
+}
