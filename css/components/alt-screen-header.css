@@ -1,0 +1,33 @@
+.alt-header {
+    position: fixed;
+    top: 26px;
+    width: 100%; /* position 적용해서 div의 크기가 내용물 만큼만 차지 */
+    box-sizing: border-box;
+    /* background-color: white; */
+    padding: var(--horizontal-space);
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .alt-header__column:nth-child(2) {
+    margin: 0px auto;
+} */
+.alt-header__column {
+    width: 33.3%;
+}
+.alt-header__column:nth-child(2) {
+    text-align: center;
+}
+.alt-header__column:nth-child(3) {
+    text-align: end;
+}
+
+.alt-header__title {
+    font-size: 20px;
+    font-weight: 600;
+}
+.alt-header__column:last-child i {
+    margin-left: 20px;
+}
+
