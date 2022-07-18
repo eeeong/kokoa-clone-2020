@@ -17,6 +17,7 @@
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/settings.css";
+@import "screens/chat.css";
 
 /*--------- 모든 파일에 적용될 것 ---------*/
 body {
@@ -29,5 +30,3 @@ body {
 .main-screen {
     padding: 0px var(--horizontal-space);
 }
-
-/*--------- 화면마다, fixed해서 생긴 빈공간 ---------*/
