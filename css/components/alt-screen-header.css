@@ -3,7 +3,6 @@
     top: 26px;
     width: 100%; /* position 적용해서 div의 크기가 내용물 만큼만 차지 */
     box-sizing: border-box;
-    /* background-color: white; */
     padding: var(--horizontal-space);
     margin-bottom: 15px;
     display: flex;
