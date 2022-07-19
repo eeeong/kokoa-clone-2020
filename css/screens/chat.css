@@ -70,7 +70,7 @@
     border-top-left-radius: 15px;
 }
 
-/*----------- reply form -----------*/
+/*----------- reply form edit -----------*/
 .reply {
     padding: 5px 15px;
     display: flex;
@@ -94,14 +94,19 @@
 
 .reply__column:last-child {
     width: 92%;
-    position: relative;
-    padding: 12px 15px;
+    /* position: relative; */
+    padding: 3px;
+    padding-left: 15px;
     border-radius: 25px;
     border: var(--main-border);
     background-color: #F8F8F8;
+    /* Added */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .reply__column:last-child input {
-    width: 85%;
+    width: 80%;
     border: none;
     font-size: 18px;
     background-color: #F8F8F8;
@@ -109,9 +114,9 @@
 .reply__column:last-child > i {
     font-size: 25px;
     color: var(--gray);
-    position: absolute;
+    /* position: absolute;
     right: 55px;
-    top: 10px;
+    top: 10px; */
 }
 .reply__column:last-child button {
     width: 38px;
@@ -120,7 +125,7 @@
     border-radius: 50%;
     border: none;
     background-color: var(--yellow);
-    position: absolute;
+    /* position: absolute;
     right: 2px;
-    top: 4px;
+    top: 4px; */
 }
