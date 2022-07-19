@@ -24,48 +24,48 @@
 }
 
 /* 대화창 */
-.message-friend {
+.message-row {
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
-.message-me {
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 15px;
-}
-.friend-profile {
+.message-row img {
     margin-right: 10px;
     width: 50px;
     height: 50px;
     border-radius: 30%;
 }
-.friend-name {
+.message__author {
     display: block;
     margin: 5px 0 8px;
     font-size: 15px;
     color: var(--deep-gray);
 }
-.message-content {
+.message__info {
     display: flex;
     align-items: flex-end;
 }
 .message__bubble {
     padding: 12px 13px;
     font-size: 18px;
+    font-weight: 500;
     border-radius: 15px;
+    border-top-left-radius: 0px;
+    background-color: white;
 }
 .message__time {
     margin: 0px 5px;
     font-size: 13px;
     color: var(--gray);
 }
-
-/* 색상 지정 */
-.message__bubble--friend {
-    background-color: white;
-    border-top-left-radius: 0px;
+/* modifier */
+.message-row__own {
+    justify-content: flex-end;
 }
-.message__bubble--me {
-    background-color: var(--yellow);
+.message-row__own .message__info {
+    flex-direction: row-reverse;
+}
+.message-row__own .message__bubble {
+    background-color: var(--yellow);    
     border-top-right-radius: 0px;
+    border-top-left-radius: 15px;
 }
