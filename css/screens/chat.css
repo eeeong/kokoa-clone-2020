@@ -77,6 +77,10 @@
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    bottom: 0;
 }
 
 .reply__column:first-child {
@@ -91,21 +95,22 @@
 .reply__column:last-child {
     width: 92%;
     position: relative;
+    padding: 12px 15px;
+    border-radius: 25px;
+    border: var(--main-border);
+    background-color: #F8F8F8;
 }
 .reply__column:last-child input {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px 10px;
-    font-size: 20px;
-    border-radius: 20px;
-    border: var(--main-border);
+    width: 85%;
+    border: none;
+    font-size: 18px;
     background-color: #F8F8F8;
 }
 .reply__column:last-child > i {
     font-size: 25px;
     color: var(--gray);
     position: absolute;
-    right: 45px;
+    right: 55px;
     top: 10px;
 }
 .reply__column:last-child button {
