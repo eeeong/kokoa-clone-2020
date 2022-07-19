@@ -36,6 +36,17 @@
 }
 
 /* -------------- splash screen -------------- */
+@keyframes hideSplashScreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+        /* display: none; */
+    }
+}
+
 #splash-screen {
     background-color: var(--yellow);
     font-size: 130px;
@@ -46,4 +57,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: hideSplashScreen 0.3s ease-in-out forwards;
+    animation-delay: 1s;
 }
