@@ -23,7 +23,7 @@
 body {
     color: #2E363E;
     font-family: 'Open Sans', sans-serif;
-    height: 200vh;
+    /* height: 200vh; */
 }
 
 /*--------- chats.html의 css는 짧아서 일단 여기 보관 ---------*/
