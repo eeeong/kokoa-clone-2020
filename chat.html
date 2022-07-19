@@ -38,9 +38,7 @@
       </div>
     </header>
 
-    <!--빈공간, friends화면이랑 같아서 그냥 그대로 냅둠-->
-    <!-- <div class="friends-display__empty-space"></div> -->
-
+    <!--빈공간은 main-chat의 margin으로 설정-->
     <main class="main-screen main-chat">
       <div class="chat__timestamp"><span>Monday, July 18, 2022</span></div>
 
@@ -63,32 +61,45 @@
             <span class="message__time">12:12</span>
           </div>
         </li>
-      </ul>
-      <li class="message-row">
-        <img
-          src="https://tikstar-user-images.oss-cn-hongkong.aliyuncs.com/713b_6857457337847825409.jpg"
-        />
-        <div class="message__content">
-          <span class="message__author">2Hun2</span>
-          <div class="message__info">
-            <span class="message__bubble">짱구야 놀자ㅏㅏㅏㅏㅏ=333</span>
-            <span class="message__time">12:12</span>
+        <li class="message-row">
+          <img
+            src="https://tikstar-user-images.oss-cn-hongkong.aliyuncs.com/713b_6857457337847825409.jpg"
+          />
+          <div class="message__content">
+            <span class="message__author">2Hun2</span>
+            <div class="message__info">
+              <span class="message__bubble">짱구야 놀자ㅏㅏㅏㅏㅏ=333</span>
+              <span class="message__time">12:12</span>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="message-row message-row__own">
-        <div class="message__info">
-          <span class="message__bubble">조금 바빠</span>
-          <span class="message__time">12:20</span>
-        </div>
-      </li>
-      <li class="message-row message-row__own">
-        <div class="message__info">
-          <span class="message__bubble">소꿉놀이 안 하면 갈거야</span>
-          <span class="message__time">12:20</span>
-        </div>
-      </li>
+        </li>
+        <li class="message-row message-row__own">
+          <div class="message__info">
+            <span class="message__bubble">부리 부리~</span>
+            <span class="message__time">12:20</span>
+          </div>
+        </li>
+        <li class="message-row message-row__own">
+          <div class="message__info">
+            <span class="message__bubble">소꿉놀이 안 하면 갈거야</span>
+            <span class="message__time">12:20</span>
+          </div>
+        </li>
+      </ul>
     </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-regular fa-face-smile"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/6b1079d137.js"
