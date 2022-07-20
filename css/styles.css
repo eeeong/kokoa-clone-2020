@@ -10,6 +10,7 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -23,7 +24,7 @@
 body {
     color: #2E363E;
     font-family: 'Open Sans', sans-serif;
-    /* height: 200vh; */
+    height: 500vh;
 }
 
 /*--------- chats.html의 css는 짧아서 일단 여기 보관 ---------*/

@@ -1,0 +1,26 @@
+#no-mobile {
+    /* position: absolute; */
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: var(--yellow);
+    width: 100vw;
+    height: 100vh;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 645px) {
+    #no-mobile {
+        display: none;
+    }
+}
+@media screen and (min-width: 646px) {
+    /* 646보다 클 때 즉, your screen big 말 나올 때는 스크롤 안 되게 */
+    body {
+        height: 100vh;
+        overflow: hidden;
+    }
+}
